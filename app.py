@@ -45,13 +45,7 @@ def model_predict(img_path, model):
    
 
     preds = model.predict(x)
-    preds=np.argmax(preds, axis=1)
-    if preds==0:
-        preds="The Car IS Audi"
-    elif preds==1:
-        preds="The Car is Lamborghini"
-    else:
-        preds="The Car Is Mercedes"
+
     
     
     return preds
@@ -77,7 +71,8 @@ def upload():
 
         # Make prediction
         preds = model_predict(file_path, model)
-        result=preds
+        pred_class = decode_predictions(preds, top=1)   # ImageNet Decode
+        result = str(pred_class[0][0][1])               # Convert to string
         return result
     return None
 
