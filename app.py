@@ -25,7 +25,7 @@ app = Flask(__name__)
 
 
 # Load your trained model
-model = ResNet18(weights="imagenet")
+model = ResNet50(weights="imagenet")
 
 
 
