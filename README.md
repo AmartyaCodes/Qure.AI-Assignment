@@ -13,7 +13,8 @@ ResNet50 was used since ResNet 18 was not available
 
 
 ### Initial Page 
-![Screenshot from 2021-06-14 00-11-39](https://user-images.githubusercontent.com/44440114/156133240-fe38a554-c8a0-4c90-8cd6-a9a1ba3ac01f.png)
+![Screenshot from 2021-06-14 00-11-24](https://user-images.githubusercontent.com/44440114/156133295-55363317-2b15-4bec-aa72-66e7cd9dd783.png)
+
 
 
 ### Upon Uploading the Image
@@ -21,4 +22,4 @@ ResNet50 was used since ResNet 18 was not available
 
 
 ### Generating the Results 
-![Screenshot from 2021-06-14 00-11-24](https://user-images.githubusercontent.com/44440114/156133295-55363317-2b15-4bec-aa72-66e7cd9dd783.png)
+![Screenshot from 2021-06-14 00-11-39](https://user-images.githubusercontent.com/44440114/156133240-fe38a554-c8a0-4c90-8cd6-a9a1ba3ac01f.png)
